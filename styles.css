@@ -1,0 +1,68 @@
+.container{
+    padding: 80px 120px;
+   
+}
+#concertsandevents{
+
+        background: darkred;
+        color: #bdbdbd;
+       .h3 {color: #fff;}
+      .p {font-style: italic;}
+      padding: 80px 120px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: lightblue;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  .modal-header, h4, .close {
+    
+    color:red !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .modal-header, .modal-body {
+    padding: 40px 50px;
+  }
+  /* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color:darkred;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+
+  }
+  
+  /* Add a gray color to all navbar links */
+  .navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+  
+  /* On hover, the links will turn white */
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  
+  /* The active link */
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+  }
+  #oundleimage{
+    text-align: center; /* Center the image horizontally */
+ 
+    display: flex;
+    justify-content: center; /* Center the image vertically */
+    align-items: center; /* Center the image vertically */
+    display: block; /* Make the image a block element */
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container height */
+    margin: 0 auto; /* Center the image horizontally */
+  
+  }
+  .logo {
+    max-height: 35px; 
